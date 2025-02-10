@@ -9,3 +9,5 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
     console.log('Subscription Tracking API running on http://localhost:3000');
 })
+
+export default app;
