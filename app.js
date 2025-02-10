@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("Welcome to Subcription Tracker API!");
+    res.send("Welcome to the Subscription Tracker API!");
 })
 
 app.listen(3000, () => {
