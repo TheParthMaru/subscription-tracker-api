@@ -1,0 +1,17 @@
+{
+  "name": "subscription-tracker-api",
+  "version": "1.0.0",
+  "description": "An API driven application to track your subscriptions.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Parth Maru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}

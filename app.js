@@ -1,0 +1,11 @@
+import express from 'express';
+
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send("Welcome to Subcription Tracker API!");
+})
+
+app.listen(3000, () => {
+    console.log('Subscription Tracking API running on http://localhost:3000');
+})
